@@ -35,6 +35,6 @@ function init() {
     const rating = parseInt((document.getElementById('ratingInput') as HTMLInputElement).value);
 
     books.push(new Book(name, rating));
-    console.log(new Book(name, rating));
+    console.table(new Book(name, rating));
   });
 }
